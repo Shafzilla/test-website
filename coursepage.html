@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {background-color: white;}
+			h1 {color: blue;}
+			p {color: black;}
+			
+			.container {
+				border: 2px solid #ccc;
+				background-color: #eee;
+				border-radius: 5px;
+				padding: 16px;
+				margin: 16px 0;
+			}
+			
+			.container::after {
+				content: ";
+				clear: both;
+				display: table;
+			}
+			
+			.container img {
+				float: left;
+				margin-right: 20px;
+				border-radius: 50%;
+			}
+			
+			.container span {
+				font-size: 20px;
+				margin-right: 15px;
+			}
+			
+			@media (max-width: 500px) {
+				.container {
+					text-align: center;
+				}
+				
+				.container img {
+					margin: auto;
+					float: none;
+					display: block;
+				}
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<a href="home.html"><img src="tudlogo.png" alt="code pic" width="80" height="60"></a>
+		<hr>Course: TU857<br>Computer Science</hr>
+		<ul>
+			<li>Networking</li>
+			<li>programming</li>
+			<li>linux</li>
+		</ul>
+		<p>Modules: </p>
+		<table>
+			<tr>
+				<th>Module Code</th>
+				<th>Module Name</th>
+				<th>Room</th>
+			</tr>
+			<tr>
+				<td>CMPU2010</td>
+				<td>Internet app and web development</td>
+				<td>230</td>
+			</tr>
+			<tr>
+				<td>CMPU2013</td>
+				<td>Microprocessors</td>
+				<td>340</td>
+			</tr>
+			<tr>
+				<td>CMPU2018</td>
+				<td>OS and System Admin</td>
+				<td>227</td>
+			</tr>
+			<tr>
+				<td>CMPU2014</td>
+				<td>Networking 2</td>
+				<td>235</td>
+			</tr>
+			<tr>
+				<td>CMPU2021</td>
+				<td>Systems Infrastructure and Arch.</td>
+				<td>238</td>
+			</tr>
+			<tr>
+				<td>CMPU2011</td>
+				<td>Legal and Prof.issues</td>
+				<td>107</td>
+			</tr>
+			<tr>
+				<td>CMPU2016</td>
+				<td>Object Oriented Programming</td>
+				<td>240</td>
+			</tr>
+			<tr>
+				<td>CMPU2012</td>
+				<td>Mathematics 2</td>
+				<td>006</td>
+			</tr>
+			<tr>
+				<td>CMPU2007</td>
+				<td>Databases 1</td>
+				<td>228</td>
+			</tr>
+			<tr>
+				<td>CMPU2008</td>
+				<td>Human Computer Interaction</td>
+				<td>230</td>
+			</tr>
+			<tr>
+				<td>CMPU2015</td>
+				<td>Networking 3</td>
+				<td>236</td>
+			</tr>
+		</table>
+		<div class="container">
+			<a href="mailto:C23502209@mytudublin.ie"><img src="anonpic.jpg" alt="avatar" style="width:90px"></a>
+			<p>Mohammad Mujahed</p>
+			<p><a href="mailto:C23502209@mytudublin.ie">c235022209@mytudublin.ie</a></p>
+		</div> 
+		<img src="coding.jpg" alt="code pic" width="500" height="600"> 
+	</body>
+</html>
